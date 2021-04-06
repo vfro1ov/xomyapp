@@ -5,5 +5,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #222;
+    background: #222;
+}
+.start_btn {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    background: #222222;
+    border: 1px solid white;
+}
+.start_btn:hover {
+    background: #fff;
+    color: #222222;
+    transition: .3s all ease;
+}
+.game_info {
+    margin-top: 25px;
+    font-size: 36px;
+    color: white;
 }
